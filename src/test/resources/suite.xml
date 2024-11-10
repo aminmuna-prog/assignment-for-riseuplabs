@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="DailyFinance Automation test">
+    <test name="User registration">
+        <classes>
+            <class name="testrunner.RegistrationTestRunner">
+            </class>
+        </classes>
+    </test>
+    <test name="Add 5 items from csv file and check total cost.">
+        <classes>
+            <class name="testrunner.AddItemsTestRunner">
+            </class>
+        </classes>
+    </test>
+    <test name="Upload a png image and update the user by any phone number.">
+        <classes>
+            <class name="testrunner.UpdateProfileImgTestRunner">
+            </class>
+        </classes>
+    </test>
+    <test name="Check created user is shown in the user list and  check if the uploaded image is showing on the user profile.">
+        <classes>
+            <class name="testrunner.AdminDashboardTestRunner">
+            </class>
+        </classes>
+    </test>
+
+</suite>
